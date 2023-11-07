@@ -129,3 +129,4 @@ class ShopCard extends StatelessWidget {
     );
   }
 }
+
