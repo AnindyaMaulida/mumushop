@@ -1,6 +1,6 @@
 <details>
 
-<summary>Tugas 1</summary>
+<summary>Tugas 8</summary>
 1. Apa perbedaan utama antara stateless dan stateful widget dalam konteks pengembangan aplikasi Flutter?
 Stateless widget adalah widget yang tidak berubah dan tidak memiliki state. Stateless widget dirender sekali dan tidak diperbarui kecuali ada perubahan data eksternal. Contohnya termasuk Text, Icon, dan RaisedButton.
 
@@ -185,7 +185,7 @@ import 'package:mumu_shop/menu.dart';
 
 <details>
 
-<summary>Tugas 2</summary>
+<summary>Tugas 8</summary>
  1. Jelaskan perbedaan antara Navigator.push() dan Navigator.pushReplacement(), disertai dengan contoh mengenai penggunaan kedua metode tersebut yang tepat!
 
 Dalam pengembangan aplikasi Flutter, `Navigator.push()` dan `Navigator.pushReplacement()` adalah dua metode yang digunakan untuk mengelola navigasi antar halaman (route) dengan perbedaan utama dalam pengelolaan stack route. Ketika menggunakan `Navigator.push()`, suatu route baru ditambahkan ke dalam stack, sehingga route tersebut muncul di atas route yang sudah ada. Ini memungkinkan pengguna untuk kembali ke halaman sebelumnya dengan menekan tombol "Back" pada perangkat mereka. Sebaliknya, `Navigator.pushReplacement()` menggantikan route yang sedang ditampilkan dengan suatu route baru, tanpa memengaruhi kondisi elemen stack di bawahnya. Dengan kata lain, route yang digantikan dihapus dari stack. Metode ini berguna ketika Anda ingin mengganti halaman tanpa meninggalkan jejak halaman sebelumnya, dan jika pengguna menekan tombol "Back", mereka tidak akan kembali ke halaman yang digantikan. Pemahaman tentang perbedaan ini membantu pengembang mengontrol perilaku navigasi dan menyusun pengalaman pengguna yang lebih baik dalam aplikasi Flutter.
